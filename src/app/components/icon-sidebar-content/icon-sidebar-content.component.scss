@@ -1,0 +1,8 @@
+.iconSidebar {
+  width: 64px;
+  min-width: 64px;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}

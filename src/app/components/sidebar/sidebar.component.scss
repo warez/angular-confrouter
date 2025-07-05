@@ -1,0 +1,19 @@
+
+.iconSidebarCnt {
+  width: 64px;
+  min-width: 64px;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.hidden, .iconSidebar.hidden {
+  transform: translateX(-100%);
+  width: 0;
+  min-width: 0;
+}
+
+.sidebarCnt {
+  display: flex;
+  flex-direction: row;
+}

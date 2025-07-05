@@ -1,0 +1,47 @@
+<div class="sidebar bg-white dark:bg-gray-700 border-r border-gray-200 dark:border-gray-600">
+<!-- Logo Section -->
+<div class="p-6 border-b border-gray-200 dark:border-gray-600">
+  <div class="flex items-center justify-center">
+    <a routerLink="">
+      <div class="my-text flex items-center justify-center text-gray-500 dark:text-gray-400">Company!!!</div>
+    </a>
+  </div>
+</div>
+
+<!-- Menu -->
+<nav class="flex-1 overflow-y-auto py-4">
+
+  <!-- Dashboard -->
+  <a routerLink="/ui/dashboard" [routerLinkActive]="active" class="menu-item text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600">
+    <span-lucide name="chartSpline" ></span-lucide> Dashboard
+  </a>
+
+  <!-- RISORSE Section -->
+  <div class="menu-section">
+    <div class="menu-section-title text-gray-400 dark:text-gray-500"> Section 1</div>
+
+    <a routerLink="/ui/entity1" [routerLinkActive]="active" class="menu-item text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600">
+      <span-lucide name="folders" ></span-lucide> Entity1
+    </a>
+
+    <a routerLink="/ui/entity2" [routerLinkActive]="active" class="menu-item text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600">
+      <span-lucide name="package" ></span-lucide> Entity2
+    </a>
+  </div>
+
+  <!-- DESIGN Section -->
+  <div class="menu-section">
+    <div class="menu-section-title text-gray-400 dark:text-gray-500"> Section 2</div>
+
+    <a routerLink="/ui/entity3" [routerLinkActive]="active" class="menu-item text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600">
+      <span-lucide name="blocks" ></span-lucide> Entity3
+    </a>
+  </div>
+
+</nav>
+
+<!-- Footer -->
+<div class="p-4 border-t border-gray-200 dark:border-gray-600">
+  <div class="text-xs flex items-center justify-center text-gray-500 dark:text-gray-400"> Powered by me</div>
+</div>
+</div>

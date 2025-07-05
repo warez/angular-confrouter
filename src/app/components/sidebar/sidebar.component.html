@@ -1,0 +1,16 @@
+<!--<div class="iconSidebarCnt">
+    <icon-sidebar-content></icon-sidebar-content>
+</div>-->
+
+
+<div class="sidebarCnt">
+
+  <div >
+    <router-outlet name="mini-sidebar"></router-outlet>
+  </div>
+
+  <div [ngClass]="{hidden: !sidebarManager.isSidebarVisible()}" >
+    <router-outlet name="sidebar"></router-outlet>
+  </div>
+
+</div>

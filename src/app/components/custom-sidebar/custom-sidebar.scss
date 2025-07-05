@@ -1,0 +1,18 @@
+/* Logo styles */
+
+.my-text {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 0.25rem;
+}
+
+.sidebar {
+  width: 235px;
+  min-width: 235px;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}

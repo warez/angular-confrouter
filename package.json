@@ -1,0 +1,49 @@
+{
+  "name": "angular-confrouter",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --configuration=development",
+    "build": "ng build",
+    "buildProduction": "ng build --configuration=production",
+    "watch": "ng build --watch",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^19.0.0",
+    "@angular/cdk": "^19.0.0",
+    "@angular/common": "^19.0.0",
+    "@angular/compiler": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/forms": "^19.0.0",
+    "@angular/material": "^19.0.0",
+    "@angular/platform-browser": "^19.0.0",
+    "@angular/platform-browser-dynamic": "^19.0.0",
+    "@angular/router": "^19.0.0",
+    "@preline/theme-switch": "^3.1.0",
+    "@tailwindcss/postcss": "^4.1.10",
+    "angular-in-memory-web-api": "^0.19.0",
+    "lucide-angular": "^0.523.0",
+    "luxon": "^3.6.1",
+    "ng": "^0.0.0",
+    "postcss": "^8.5.6",
+    "preline": "^3.1.0",
+    "rxjs": "~7.8.0",
+    "tailwindcss": "^4.1.10",
+    "tslib": "^2.3.0",
+    "web-animations-js": "^2.3.2",
+    "yaml": "^2.8.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.0.0",
+    "@angular/cli": "^19.0.0",
+    "@angular/compiler-cli": "^19.0.0",
+    "@angular/language-service": "^19.0.0",
+    "@types/jasmine": "~4.3.0",
+    "@types/luxon": "^3.6.2",
+    "jasmine-core": "~4.6.0",
+    "typescript": "~5.8.3"
+  }
+}

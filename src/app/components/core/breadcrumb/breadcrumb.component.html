@@ -1,0 +1,13 @@
+<nav class="breadcrumb text-gray-500 dark:text-gray-400" aria-label="breadcrumb">
+  <ol class="breadcrumb flex item">
+    <li *ngFor="let crumb of breadcrumbs; let last = last" class="breadcrumb-item" [class.active]="last" [attr.aria-current]="last ? 'page' : null">
+      <ng-container *ngIf="!last">
+        <a class="flex" [routerLink]="crumb.link">
+          <span-lucide *ngIf="crumb.icon" [name]="crumb.icon" ></span-lucide> {{ crumb.title }} <span class="division">/</span>
+        </a>
+      </ng-container>
+      <ng-container *ngIf="last">
+        <span class="flex"><span-lucide *ngIf="crumb.icon" [name]="crumb.icon" ></span-lucide> {{ crumb.title }}</span>
+      </ng-container>
+    </li>
+  </ol>
